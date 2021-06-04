@@ -1,3 +1,8 @@
+# '''
+# Only one object is created for the classs.
+# '''
+
+
 class _Tigger:
 
     def __str__(self):

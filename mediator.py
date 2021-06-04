@@ -1,7 +1,7 @@
-'''
-Mediator design pattern restrict direct communication between objects. reduce chaotic dependancies between objects.
-ATC (Air traffic controller)
-'''
+# '''
+# Mediator design pattern restrict direct communication between objects. reduce chaotic dependancies between objects.
+# ATC (Air traffic controller)
+# '''
 
 class Mediator(object):
     def __init__(self):

@@ -1,3 +1,11 @@
+
+# Observer design pattern lets you define subscription mechanism to notify multiple observer whenever there is 
+# a change in the objects.
+
+# pub --- sub.
+
+
+
 class Subject(object):
 
     def __init__(self):
