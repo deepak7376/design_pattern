@@ -1,0 +1,15 @@
+* Functional correctness
+* Code practice  (variable naming, comments, exception handling, logging)
+* Quality of test cases
+* LLD
+* Concurrency 
+* NFR (non Functional requirements) (algorithmic efficiency, right data structure, index on query)
+
+
+S- Single responsibilty
+O - open for extension close for modification
+L - Liskov substitution principle
+I - Interface seggregation
+D - dependency Inversion
+
+DAO means Crud operation
