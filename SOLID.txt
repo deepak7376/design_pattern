@@ -12,4 +12,41 @@ L - Liskov substitution principle
 I - Interface seggregation
 D - dependency Inversion
 
-DAO means Crud operation
+DAO means Crud operation (create, read, update, delete). It decouple persistence stroage implementation 
+from rest of your application
+
+Class Student:
+    def __init__(self):
+        self.name = name
+        self.rollNo = rollNo
+
+    getter, setter
+
+
+class StudentDAO(object):
+    def __init__(self):
+        self.cursor = ""
+
+    def getStudent(self, id):
+        self.cursor.excute("SELECT FROM STUDENT WHERE ID=id")
+
+    def deleteStudent(seld):
+        pass
+
+    def updateStudent(self):
+        pass
+
+DTO(Data transfer object)- used for representing request and response objects of any webservices
+
+
+
+Good APPs:
+*APPs
+    * entities
+    * DAOS
+    * DTOS
+        * request
+        * response
+    * constant
+    * utils
+    * exceptions
